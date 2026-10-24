@@ -1,0 +1,40 @@
+title: Cyrex 的试验博客
+subtitle: 从一篇文章开始
+description: 一个用于验证 Hexo 写作与自动发布的测试博客。
+author: Cyrex
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://veryseriousdogemperor.github.io
+root: /
+permalink: posts/:title/
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+new_post_name: :title.md
+default_layout: post
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: false
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+default_category: 随笔
+date_format: YYYY-MM-DD
+time_format: HH:mm
+updated_option: date
+per_page: 10
+pagination_dir: page
+theme: landscape
+# Draft resources must never enter production output.
+exclude:
+  - _drafts/**
+deploy:
+  type: ''

@@ -1,0 +1,11 @@
+menu:
+  Home: /
+  Archives: /archives
+rss: false
+banner: /images/banner.svg
+subtitle: 写下来，再发布出去。
+fancybox: false
+sidebar: right
+excerpt_link: 阅读全文
+links:
+  github: https://github.com/VerySeriousDogEmperor/VerySeriousDogEmperor.github.io
